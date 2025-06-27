@@ -124,5 +124,8 @@ curl --request GET \
       "email": "somebody@example.com"
     },
 ```
-  
+
+  1350+ leaked database, and 360 million infostealer log collect via TTPToday's in-house developed intelligence stream 
+
+  ![Alt text](intel.png)
 
