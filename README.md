@@ -2,6 +2,28 @@
 # LeaksAPI-Docs
 http://leaks-api.com docs
 
+
+
+ 💧 LeaksAPI 💧 – Tap into the World of Data Breaches 🔍
+
+LeaksAPI is an API that allows you to quickly discover if a user has been involved in a database or credentials leak or breach, helping protect users and enhance security systems worldwide.
+
+Recover your old accounts, discover leaked passwords and more with LeaksAPI!
+
+✅ Access Data From Over 1,340+ Leaked Databases and Breaches ✅
+🕵️ Quickly Check if a User's Password Has Been Leaked 🔑
+📊 Over 345.2 Million Infostealer Logs 📊.
+🚀 Live Daily Updates 🚀
+🚨 Email notification alerts when your data is leaked 🚨
+💼 Pro Plan: Unlock passwords,address,dob, and much more with full access to infostealer logs 💼
+📧 Best with Gmail, Hotmail, or Business Emails/domains 📧
+🛡️ Empower your cybersecurity strategy with actionable insights from LeaksAPI 🛡️
+
+**Total: Over 345.2 million infostealer infection logs + 1,340+ leaked databases indexed** 
+
+
+details; 
+ 
 emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)  
 add your key 'your key here' in the script 
 
