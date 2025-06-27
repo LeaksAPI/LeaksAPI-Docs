@@ -2,7 +2,7 @@
 # LeaksAPI-Docs
 http://leaks-api.com docs
 
-  ![Alt text](logo.png)
+  ![Alt text](61bedb53-ab90-40da-8991-03f4d613d1bb.webp)
 
 
  💧 LeaksAPI 💧 – Tap into the World of Data Breaches 🔍
