@@ -27,8 +27,8 @@ Recover your old accounts, discover leaked passwords and more with LeaksAPI!
 
 details; 
  
-emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)  
-add your key 'your key here' in the script 
+emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
+add your key 'your key here' in the script   
 
 ```
 % python3 emails-full.py example.com
@@ -74,14 +74,14 @@ add your key 'your key here' in the script
 ```
 
 
-endpoints;
+endpoints;  
 
-1. passwords-premium-subscription
+1. passwords-premium-subscription  
 
-Returns: Passwords, IPs, phone numbers, address, DOB, SSN, and more
-Method: GET
-URI: /api/v2/query/{email}
-Example:
+Returns: Passwords, IPs, phone numbers, address, DOB, SSN, and more  
+Method: GET  
+URI: /api/v2/query/{email}  
+Example:  
 ```
 curl --request GET \
   --url 'https://leaksapi.p.rapidapi.com/api/v2/query/test@gmail.com' \
@@ -90,14 +90,14 @@ curl --request GET \
 ```
 
 
-2. domain-search
-Returns: Leaked data for entire corporate domain
-Method: GET
-URI: /api/v2/query/{domain}
-parameter = type=domain
-if none provided, it will auto attempt to auto identify but you should specify domain its better
+2. domain-search 
+Returns: Leaked data for entire corporate domain  
+Method: GET  
+URI: /api/v2/query/{domain}  
+parameter = type=domain  
+if none provided, it will auto attempt to auto identify but you should specify domain its better  
 
-Example curl request and response:
+Example curl request and response:  
 ```
 curl --request GET \
   --url 'https://leaksapi.p.rapidapi.com/api/v2/query/example.com?type=domain' \
@@ -150,7 +150,7 @@ curl --request GET \
     },
 ```
 
-  1350+ leaked database, and 360 million infostealer log collect via TTPToday's in-house developed intelligence stream 
+  1350+ leaked database, and 360 million infostealer log collect via TTPToday's in-house developed intelligence stream   
 
   ![Alt text](intel.png)
 
