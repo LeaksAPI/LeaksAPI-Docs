@@ -2,6 +2,17 @@
 # LeaksAPI-Docs
 http://leaks-api.com docs
 
+1. Description  
+2. Endpoints  
+   2.1 premium-passwords data endpoint  
+   2.2 domain-search endpoint  
+   2.3 phone-search  
+   2.4 stealer logs search  
+
+3. intel sources
+4. pricing
+5. unique email deep search example
+
   ![Alt text](61bedb53-ab90-40da-8991-03f4d613d1bb.webp)
 
 
@@ -32,52 +43,6 @@ Recover your old accounts, discover leaked passwords and more with LeaksAPI!
 
 
 details; 
- 
-emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
-add your key 'your key here' in the script   
-
-```
-% python3 emails-full.py example.com
-[*] Requesting offset 0–1000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 1000–2000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 2000–3000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 3000–4000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 4000–5000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 5000–6000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 6000–7000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 7000–8000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 8000–9000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 9000–10000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 10000–11000 for example.com...
-[+] Emails found in this batch: 1000
-
-[*] Requesting offset 11000–12000 for example.com...
-[+] Emails found in this batch: 0
-[!] No more emails found. Stopping.
-
-[✓] Total unique emails found for example.com: 5466
-[✓] Saved to: unique-example.com.txt
-```
 
 
 endpoints;  
@@ -167,3 +132,51 @@ curl --request GET \
   i.e 20 RPS extra is 999 x 2 = 1998
   we cant discount it as its the cost of our dedicated servers to you but you are gurenteed the resources + aws load balncing with 0.00% error rate, RPS arent profit for us its the best we can do
 
+
+
+ 
+emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
+add your key 'your key here' in the script   
+
+```
+% python3 emails-full.py example.com
+[*] Requesting offset 0–1000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 1000–2000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 2000–3000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 3000–4000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 4000–5000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 5000–6000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 6000–7000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 7000–8000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 8000–9000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 9000–10000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 10000–11000 for example.com...
+[+] Emails found in this batch: 1000
+
+[*] Requesting offset 11000–12000 for example.com...
+[+] Emails found in this batch: 0
+[!] No more emails found. Stopping.
+
+[✓] Total unique emails found for example.com: 5466
+[✓] Saved to: unique-example.com.txt
+```
