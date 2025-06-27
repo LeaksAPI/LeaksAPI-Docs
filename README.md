@@ -154,3 +154,10 @@ curl --request GET \
 
   ![Alt text](intel.png)
 
+
+  pricing:
+  See dynamic pricing page or contact us for a quote 
+  price point is around 999$ per 10 RPS upgrade to your plan, otherwise max is 3 requst per second, contact us for custom quotes and integrations 
+  i.e 20 RPS extra is 999 x 2 = 1998
+  we cant discount it as its the cost of our dedicated servers + aws load balncing with 0.00% error rate, RPS arent profit for us its the best we can do
+
