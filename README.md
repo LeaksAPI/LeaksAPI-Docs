@@ -2,9 +2,12 @@
 # LeaksAPI-Docs
 http://leaks-api.com docs
 
+  ![Alt text](logo.png)
 
 
  💧 LeaksAPI 💧 – Tap into the World of Data Breaches 🔍
+
+
 
 LeaksAPI is an API that allows you to quickly discover if a user has been involved in a database or credentials leak or breach, helping protect users and enhance security systems worldwide.
 
