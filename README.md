@@ -51,7 +51,7 @@ add your key 'your key here' in the script
 
 endpoints;
 
-passwords-premium-subscription
+1. passwords-premium-subscription
 
 Returns: Passwords, IPs, phone numbers, address, DOB, SSN, and more
 Method: GET
@@ -65,7 +65,7 @@ curl --request GET \
 ```
 
 
-domain-search
+2. domain-search
 Returns: Leaked data for entire corporate domain
 Method: GET
 URI: /api/v2/query/{domain}
