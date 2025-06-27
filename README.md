@@ -24,7 +24,7 @@ Recover your old accounts, discover leaked passwords and more with LeaksAPI!
 
 **Total: Over 345.2 million infostealer infection logs + 1,340+ leaked databases indexed**  
 
-
+<a href='http://leaks-api.com'>SIGN UP NOW!</a>
 details; 
  
 emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
