@@ -59,8 +59,37 @@ curl --request GET \
   --header 'x-rapidapi-host: leaksapi.p.rapidapi.com' \
   --header 'x-rapidapi-key: YOUR_API_KEY'
 ```
+```% python3 email-search.py test@example.com
+{
+  "found": 1000,
+  "result": [
+    {
+      "email": "test@example.com",
+      "fields": [
+        "password",
+        "email"
+      ],
+      "password": "12345",
+      "source": {
+        "compilation": 0,
+        "passwordless": 0,
+        "breach_date": null,
+        "name": "selectsmart.com",
+        "unverified": 0
+      }
+    },
+      "source": {
+        "compilation": 1,
+        "passwordless": 0,
+        "breach_date": null,
+        "name": "Stealer Logs",
+        "unverified": 0
+      },
+      "password": "12345",
+      "email": "test@example.com"
+    },```
 
-
+```
 2. domain-search 
 Returns: Leaked data for entire corporate domain  
 Method: GET  
@@ -128,14 +157,16 @@ curl --request GET \
 
   pricing:
   See dynamic pricing page <a href='http://leaks-api.com'>HERE </a> or contact us for a quote 
-  price point is around 999$ per 10 RPS upgrade to your plan, otherwise max is 3 requst per second, contact us for custom quotes and integrations 
-  i.e 20 RPS extra is 999 x 2 = 1998
-  we cant discount it as its the cost of our dedicated servers to you but you are gurenteed the resources + aws load balncing with 0.00% error rate, RPS arent profit for us its the best we can do
+  ULTRA plan; 99$, -20% for annual payment
+  Mega: 999$ 1 millio request, 
+
+  request per seconds upgrades:
+  the cost is 999$ for an additional 10 concurent dedicated rps, plans are limited to 3 rps otherwise 
 
 
 
  
-emails-full-unique.py - increment results using offset until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
+emails-full-unique.py -  count total number of unique email results for a domain by increment results using offset paramater until no more are found, unique and save to file (uses around 5-10 credits per full deep domain search)    
 add your key 'your key here' in the script   
 
 ```
