@@ -68,6 +68,10 @@ curl --request GET \
       "fields": [
         "password",
         "email"
+        "name",
+        "username",
+        "dob",
+        "email"
       ],
       "password": "12345",
       "source": {
